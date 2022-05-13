@@ -2,7 +2,6 @@ body{
     margin:0;
     font-family: roboto mono;
     background:#F9F9F9;
-  
 }
 
 
@@ -14,9 +13,7 @@ header{
     background:#F9F9F9;
     box-shadow: 5px 0px 5px rgb(218, 215, 215);
     z-index: 1;
-    /* position: fixed; */
-    /* top: 0;
-    left: 0; */
+   
     height: 200px;
 }
 
@@ -29,7 +26,7 @@ header{
 
 }
 .titel{
-    /* border: 1px solid chartreuse; */
+   
     display: inline;
     color: rgb(3, 3, 3);
     font-size: 32px;
@@ -94,6 +91,7 @@ nav a:hover{
 .content{
     display: none;
   
+  
 }
     
 .open{
@@ -103,7 +101,7 @@ nav a:hover{
 
 
 
-    @media screen and (min-width: 1030px){
+    @media screen and (min-width: 700px){
 
 
         header{
@@ -169,7 +167,7 @@ nav a:hover{
        
 
     .content{
-    
+     
         display: block;
         background: black;
         justify-content: center;
@@ -179,12 +177,11 @@ nav a:hover{
 
     div img{
         width: auto;
-
         width: 80%;
         /* margin-top: 100PX; */
         margin-right: 10%;
         margin-left:10%;
-        padding: 30px;
+        padding-top: 30px;
     }
     video{
      display: block;
@@ -216,5 +213,4 @@ footer img{
     width: 60px;
     height: 60px;
 
-  
 }
