@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="157px" viewBox="0 0 369 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <filter x="-16.9%" y="-60.9%" width="133.9%" height="221.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26664083 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="P1-Copy" transform="translate(-572.000000, -242.000000)">
+            <g id="logo" filter="url(#filter-1)" transform="translate(609.000000, 279.000000)">
+                <g id="Group-3">
+                    <g id="Group">
+                        <rect id="Rectangle" fill="#2A727C" x="0" y="6.96331881e-13" width="295" height="82" rx="41"></rect>
+                        <path d="M177.56894,3.15544362e-30 C177.964732,0.578979657 203.458981,0.691409596 254.051687,0.337289815 C276.509077,0.180109802 294.841815,18.2579947 294.999004,40.7153845 C294.999668,40.8102549 295,40.9051273 295,41 L295,41.0694427 C295.000276,63.6886163 276.682396,82.0350004 254.06325,82.0698991 C200.092776,82.1491939 173.04561,82.1258941 172.921752,82 C152.309191,61.0485699 156.956379,18.15024 177.56894,3.15544362e-30 Z" id="Rectangle" fill-opacity="0.451364797" fill="#000000"></path>
+                    </g>
+                    <text id="MEDrec." font-family="NewYorkLarge-BlackItalic, New York Large" font-size="50" font-style="italic" font-weight="700" letter-spacing="1.66666669" fill="#FFFFFF" text-decoration="underline">
+                        <tspan x="37.1007486" y="59">MEDrec.</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

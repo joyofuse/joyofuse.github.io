@@ -1,0 +1,220 @@
+body{
+    margin:0;
+    font-family: roboto mono;
+    background:#F9F9F9;
+  
+}
+
+
+header{
+    font-family: roboto mono;
+    font-weight:300;
+    width: 100%;
+    height: 72px;
+    background:#F9F9F9;
+    box-shadow: 5px 0px 5px rgb(218, 215, 215);
+    z-index: 1;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
+    height: 200px;
+}
+
+.logo{
+
+    float: left;
+    position: relative;
+    margin-left: 24px;
+     margin-right: 26px;
+
+}
+.titel{
+    /* border: 1px solid chartreuse; */
+    display: inline;
+    color: rgb(3, 3, 3);
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+  
+}
+
+.typing{
+    /* height: 100vh; */
+    display: flex;
+   
+}
+.intro{
+   
+    color: rgb(3, 3, 3);
+    /* margin: 10px; */
+    position: absolute;
+    font-size:16;
+    font-weight: 400;
+    font-style: italic;
+
+width: 42ch;
+  animation: typing 3s steps(42), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+
+}
+
+
+nav a{
+display:block;
+   text-decoration: none;
+   color: rgb(117, 112, 112);
+   font-size: 16px;
+   font-weight: 400;
+    margin: 0 40px ;
+
+    float: right;
+    position: relative;
+    top: 150px;
+    right: 30px;
+   
+}
+
+nav a:hover{
+    color: rgb(252, 24, 119);
+
+}
+.content{
+    display: none;
+  
+}
+    
+.open{
+    position: relative;
+    left: 100px;
+}
+
+
+
+    @media screen and (min-width: 1030px){
+
+
+        header{
+              position: fixed;
+              top: 0;
+              left: 0;
+              height: 80px;
+    
+        }
+    
+        nav a {
+            margin: 0 30px ;
+            position: relative;
+            top: 30px;
+           
+        }
+    
+        .titel{
+            /* border: 1px solid chartreuse; */
+            display: inline;
+            color: rgb(7, 7, 7);
+            font-size: 32px;
+            font-weight: 600;
+            position: relative;
+            /* top: 28px; */
+        }
+        
+        .typing{
+            /* height: 100vh; */
+            display: flex;
+            margin-left: 320px;
+           
+        }
+        .intro{
+           
+           display: inline;
+           top: 10px;
+            color: rgb(8, 8, 8);
+           
+          
+            font-size:20px;
+            font-weight: 400;
+            font-style: italic;
+        
+        width: 42ch;
+          animation: typing 3s steps(42), blink .5s step-end infinite alternate;
+          white-space: nowrap;
+          overflow: hidden;
+        
+        }
+        @keyframes typing {
+            from {
+              width: 0
+            }
+          }
+              
+          @keyframes blink {
+            50% {
+              border-color: transparent
+            }
+        
+        }
+       
+
+    .content{
+    
+        display: block;
+        background: black;
+        justify-content: center;
+        margin-top: 200px;
+    
+    }
+
+    div img{
+        width: auto;
+
+        width: 80%;
+        /* margin-top: 100PX; */
+        margin-right: 10%;
+        margin-left:10%;
+        padding: 30px;
+    }
+    video{
+     display: block;
+      margin:auto;
+      margin-bottom: 20px;
+    }
+  
+    
+   
+footer{
+display: block;
+    background:#F9F9F9;
+    height: 200px;
+    /* padding:10px; */
+   justify-content: center;
+   
+}
+.top{
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    color:rgb(252, 24, 119);
+}
+footer img{
+    display: block;
+    position: relative;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+
+  
+}
