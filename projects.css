@@ -6,7 +6,6 @@ body{
 
 
 header{
-    font-family: roboto mono;
     font-weight:300;
     width: 100%;
     height: 72px;
@@ -18,32 +17,18 @@ header{
 }
 
 .logo{
-
-    float: left;
-    position: relative;
-    margin-left: 24px;
-     margin-right: 26px;
-
+    display: none;
 }
 .titel{
-   
-    display: inline;
-    color: rgb(3, 3, 3);
-    font-size: 32px;
-    font-weight: 600;
-    position: relative;
-  
+    display: none;
 }
 
 .typing{
-    /* height: 100vh; */
-    display: flex;
-   
+    display: none;
+
 }
 .intro{
-   
     color: rgb(3, 3, 3);
-    /* margin: 10px; */
     position: absolute;
     font-size:16;
     font-weight: 400;
@@ -70,7 +55,7 @@ width: 42ch;
 
 
 nav a{
-display:block;
+display:none;
    text-decoration: none;
    color: rgb(117, 112, 112);
    font-size: 16px;
@@ -102,7 +87,24 @@ nav a:hover{
 
 
     @media screen and (min-width: 700px){
-
+        .logo{
+            display: block;
+            float: left;
+            position: relative;
+            margin-left: 24px;
+             margin-right: 26px;
+        }
+        .titel{
+            display: inline;
+            color: rgb(3, 3, 3);
+            font-size: 32px;
+            font-weight: 600;
+            position: relative;
+        }
+        .typing{
+            display: flex;
+           
+        }
 
         header{
               position: fixed;
@@ -113,6 +115,7 @@ nav a:hover{
         }
     
         nav a {
+            display:block;
             margin: 0 30px ;
             position: relative;
             top: 30px;
@@ -140,8 +143,6 @@ nav a:hover{
            display: inline;
            top: 10px;
             color: rgb(8, 8, 8);
-           
-          
             font-size:20px;
             font-weight: 400;
             font-style: italic;
